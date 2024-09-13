@@ -14,6 +14,11 @@ variable "aws-vpn-client-list" {
   description = "VPN client list!?"
   type        = list(string)
 }
+
+variable "vpn-client-dns-server" {
+  description = "DNS Servers"
+  type        = list(string)
+}
 variable "vpc_id" {
   description = "VPC ID"
   type        = string
